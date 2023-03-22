@@ -10,13 +10,13 @@ Step 1. Clone this repository: https://github.com/Shah77966/Object-Detection-Usi
 
 Step 2. Create a new virtual environment
 ```bash 
-    python -m venv tfod
+python -m venv tfod
 ```
 
 Step 3. Activate your virtual environment
 ```bash
-    source tfod/bin/activate # Linux
-    .\tfod\Scripts\activate # Windows
+source tfod/bin/activate # Linux
+.\tfod\Scripts\activate # Windows
 ```
 Step 4. Install dependencies and add virtual environment to the Python Kernel
 ```bash
@@ -41,10 +41,10 @@ Step 9. Once you get to step 6. Train the model, inside of the notebook, you may
 Step 10. You can optionally evaluate your model inside of Tensorboard. Once the model has been trained and you have run the evaluation command under Step 7. Navigate to the evaluation folder for your trained model e.g.
 
 ```bash
-    cd Tensorlfow/workspace/models/my_ssd_mobnet/eval
+cd Tensorlfow/workspace/models/my_ssd_mobnet/eval
 ```
 and open Tensorboard with the following command
 ```bash
-    tensorboard --logdir=.
+tensorboard --logdir=.
 ```
 Tensorboard will be accessible through your browser and you will be able to see metrics including mAP - mean Average Precision, and Recall.
